@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.booking.BookingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/img_hotel"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_baseline_image_24"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_baseline_image_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Hotel Linux Luxury"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="HCM City"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Price: 5.000.000đ"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_booking3"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTintMode="src_over"
+            android:text="Insert"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_booking"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTintMode="src_over"
+            android:text="Update"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_booking2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTintMode="src_over"
+            android:text="Delete"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
